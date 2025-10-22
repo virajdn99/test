@@ -1,0 +1,24 @@
+=== DATA PROTECTION TEST FILE - NON-PROD ONLY ===
+This file is a TEST artifact created for DLP/Data Protection detection validation.
+DO NOT USE REAL SENSITIVE DATA. This is synthetic test data.
+
+-- TEST PATTERNS START --
+
+TEST_SSN: TEST-SSN-000-00-0000
+TEST_SSN_2: 000-00-0000   <-- synthetic SSN-like pattern for testing
+
+TEST_CREDIT_CARD: 4111 1111 1111 1111   <-- common VISA test number pattern
+TEST_CREDIT_CARD_2: 4242-4242-4242-4242
+
+TEST_PASSPORT: TEST-PASSPORT-0000000
+TEST_ROUTING: ROUTE-TEST-00000000
+
+TEST_EMAIL: test.user@example.test
+TEST_PHONE: +000-000-0000
+
+-- TEST PATTERNS END --
+
+Additional text to give context to file:
+"This is a harmless test file. The values above are synthetic and not real personal data. Intended only for detection testing."
+
+=== END OF FILE ===
